@@ -57,9 +57,10 @@ void loop() { // Song of Healing - Majora's Mask (2/4 time, C-major)
 
  // measure 1 -- Writing in measures for readability
 
-  playNote(F_NOTE, eighth_Note);
+  //NICO: CHANGED A NOTES
   playNote(A_NOTE, eighth_Note);
-  playNote(B_NOTE, quarter_Note);
+  playNote(A_NOTE, eighth_Note);
+  playNote(A_NOTE, quarter_Note);
 
  //measure 2
 
